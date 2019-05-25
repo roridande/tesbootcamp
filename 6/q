@@ -1,0 +1,3 @@
+SELECT users.id users.names, skills.user_id 
+FROM users , skills  
+WHERE users.id = skills.user_id
